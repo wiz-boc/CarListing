@@ -6,7 +6,9 @@
         "marketPrice":125000.0,
         "model":"Range Rover",
         "prosList":["You can go everywhere","Good sound system"],
-        "rating":3
+        "rating":3,
+        "videoURL":"",
+        "imageName":"Rover"
     },
     {
         "consList":["Sometime explode"],
@@ -15,7 +17,10 @@
         "marketPrice":225000.0,
         "model":"Roadster",
         "prosList":["This car is so fast","Jame Bond would love to steal that car","",""],
-        "rating":4
+        "rating":4,
+        "videoURL":"",
+        "imageName":"Alpine"
+        
     },
     {
         "consList":["You can heard the engine over children cry at the back","","You may lose this one if you divorce"],
@@ -24,7 +29,9 @@
         "marketPrice":55900.0,
         "model":"3300i",
         "prosList":["Your average business man car","Can bring the family home safely","The city must have"],
-        "rating":5
+        "rating":5,
+        "videoURL":"",
+        "imageName":"BMW"
     },
     {
         "consList":["You may lose a wheel","Expensive maintenance"],
@@ -33,6 +40,8 @@
         "marketPrice":85900.0,
         "model":"GLE coupe",
         "prosList":[],
-        "rating":2
+        "rating":2,
+        "videoURL":"",
+        "imageName":"Benz"
     }
 ]

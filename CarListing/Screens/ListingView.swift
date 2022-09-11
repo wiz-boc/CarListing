@@ -8,12 +8,21 @@
 import SwiftUI
 
 struct ListingView: View {
+    @EnvironmentObject var viewModel: CarlistViewModel
     var body: some View {
-        Text("Hello, world!")    }
+        VStack{
+            ScrollView{
+                ForEach(viewModel.carList){ car in
+                    CarCardView(car: car)
+                }
+            }
+        }
+    }
 }
 
 struct ListingView_Previews: PreviewProvider {
     static var previews: some View {
         ListingView()
+            .environmentObject(CarlistViewModel())
     }
 }

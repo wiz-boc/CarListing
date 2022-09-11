@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct CarListingApp: App {
+    
+    @StateObject var carViewModel = CarlistViewModel()
     var body: some Scene {
         WindowGroup {
             ListingView()
+                .environmentObject(carViewModel)
         }
     }
 }
