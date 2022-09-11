@@ -9,9 +9,7 @@ import SwiftUI
 
 struct ListingView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        Text("Hello, world!")    }
 }
 
 struct ListingView_Previews: PreviewProvider {
