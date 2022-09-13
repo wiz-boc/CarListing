@@ -74,17 +74,23 @@ extension CarCardView {
             Text(car.make)
                 .font(.title)
                 .fontWeight(.black)
-            Text("$\(car.customerPrice)")
+            Text("$\(car.marketPrice, specifier: "%.2f")")
                 .font(.caption)
+            HStack{
+                ForEach(0...3, id: \.self){ _ in
+                    Image(systemName: "star.fill")
+                        .foregroundColor(.yellow)
+                }
+            }
         }
         .padding([.leading,.trailing])
     }
     
     var hiddenDetailsView: some View {
-        VStack{
-            Text("hide this")
-                .font(.title)
-                .fontWeight(.black)
+        VStack(alignment: .leading){
+            Group{
+                ExternalWeblinkView(car: car)
+            }
                 
         }
         .padding()

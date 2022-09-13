@@ -8,7 +8,8 @@
         "prosList":["You can go everywhere","Good sound system"],
         "rating":3,
         "videoURL":"",
-        "imageName":"Rover"
+        "imageName":"Rover",
+        "website":""
     },
     {
         "consList":["Sometime explode"],
@@ -16,14 +17,15 @@
         "make":"Alpine",
         "marketPrice":225000.0,
         "model":"Roadster",
-        "prosList":["This car is so fast","Jame Bond would love to steal that car","",""],
+        "prosList":["This car is so fast, Jame Bond would love to steal that car"],
         "rating":4,
         "videoURL":"",
-        "imageName":"Alpine"
+        "imageName":"Alpine",
+        "website":""
         
     },
     {
-        "consList":["You can heard the engine over children cry at the back","","You may lose this one if you divorce"],
+        "consList":["You can heard the engine over children cry at the back, You may lose this one if you divorce"],
         "customerPrice":65000.0,
         "make":"BMW",
         "marketPrice":55900.0,
@@ -31,7 +33,8 @@
         "prosList":["Your average business man car","Can bring the family home safely","The city must have"],
         "rating":5,
         "videoURL":"",
-        "imageName":"BMW"
+        "imageName":"BMW",
+        "website":""
     },
     {
         "consList":["You may lose a wheel","Expensive maintenance"],
@@ -42,6 +45,7 @@
         "prosList":[],
         "rating":2,
         "videoURL":"",
-        "imageName":"Benz"
+        "imageName":"Benz",
+        "website":""
     }
 ]

@@ -18,10 +18,11 @@ struct Car: Codable, Identifiable {
     let rating:Int
     let videoURL: String
     let imageName: String
+    let website: String
     
 }
 
 class CarExample {
         
-    static var BMWCar = Car(consList: ["You can heard the engine over children cry at the back","","You may lose this one if you divorce"], customerPrice: 65000.0, make: "BMW", marketPrice: 55900.0, model: "3300i", prosList: ["Your average business man car","Can bring the family home safely","The city must have"], rating: 3, videoURL: "", imageName: "")
+    static var BMWCar = Car(consList: ["You can heard the engine over children cry at the back","","You may lose this one if you divorce"], customerPrice: 65000.0, make: "BMW", marketPrice: 55900.0, model: "3300i", prosList: ["Your average business man car","Can bring the family home safely","The city must have"], rating: 3, videoURL: "", imageName: "", website: "")
 }
