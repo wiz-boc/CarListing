@@ -46,6 +46,7 @@ struct ExternalWeblinkView: View {
                                 .frame(width: 6, height: 6, alignment: .center)
                                 .foregroundColor(.gray)
                             Text(pro)
+                            Spacer()
                         }
                         .padding(.leading,26)
                     }
@@ -68,6 +69,7 @@ struct ExternalWeblinkView: View {
                                 .frame(width: 6, height: 6, alignment: .center)
                                 .foregroundColor(.gray)
                             Text(con)
+                            Spacer()
                         }
                         .padding(.leading,26)
                     }
