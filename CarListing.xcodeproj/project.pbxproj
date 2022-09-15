@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF398B8E28D205E3005D4D1C /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF398B8D28D205E2005D4D1C /* FilterView.swift */; };
 		FF58749328CACD6B00DD4FF4 /* CarListingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58749228CACD6B00DD4FF4 /* CarListingApp.swift */; };
 		FF58749528CACD6B00DD4FF4 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58749428CACD6B00DD4FF4 /* ListingView.swift */; };
 		FF58749728CACD6F00DD4FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF58749628CACD6F00DD4FF4 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF398B8D28D205E2005D4D1C /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		FF58748F28CACD6B00DD4FF4 /* CarListing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarListing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF58749228CACD6B00DD4FF4 /* CarListingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListingApp.swift; sourceTree = "<group>"; };
 		FF58749428CACD6B00DD4FF4 /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				FFF2086528CE5EB80017BF1F /* CarCardView.swift */,
 				FFF2086728CEC0BC0017BF1F /* ExternalWeblinkView.swift */,
+				FF398B8D28D205E2005D4D1C /* FilterView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				FF58749528CACD6B00DD4FF4 /* ListingView.swift in Sources */,
 				FFF2086128CE52E00017BF1F /* Bundle.swift in Sources */,
 				FF58749328CACD6B00DD4FF4 /* CarListingApp.swift in Sources */,
+				FF398B8E28D205E3005D4D1C /* FilterView.swift in Sources */,
 				FFF2085F28CE51000017BF1F /* Car.swift in Sources */,
 				FFF2086628CE5EB90017BF1F /* CarCardView.swift in Sources */,
 				FFF2086828CEC0BC0017BF1F /* ExternalWeblinkView.swift in Sources */,
