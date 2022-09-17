@@ -20,6 +20,7 @@ struct Car: Codable, Identifiable {
     let imageName: String
     let website: String
     
+    
 }
 
 class CarExample {

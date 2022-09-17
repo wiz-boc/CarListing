@@ -13,6 +13,10 @@
 		FF58749728CACD6F00DD4FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF58749628CACD6F00DD4FF4 /* Assets.xcassets */; };
 		FF58749A28CACD6F00DD4FF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF58749928CACD6F00DD4FF4 /* Preview Assets.xcassets */; };
 		FF5874A728CAD87700DD4FF4 /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = FF5874A628CAD87700DD4FF4 /* car_list.json */; };
+		FF6F36AA28D35D0B003CB236 /* DropdownOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6F36A928D35D0A003CB236 /* DropdownOption.swift */; };
+		FF6F36AC28D35D2B003CB236 /* DropdownSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6F36AB28D35D2B003CB236 /* DropdownSelector.swift */; };
+		FF6F36AE28D35D6C003CB236 /* Dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6F36AD28D35D6C003CB236 /* Dropdown.swift */; };
+		FF6F36B028D35D94003CB236 /* DropdownRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6F36AF28D35D94003CB236 /* DropdownRow.swift */; };
 		FFF2085F28CE51000017BF1F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2085E28CE51000017BF1F /* Car.swift */; };
 		FFF2086128CE52E00017BF1F /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2086028CE52E00017BF1F /* Bundle.swift */; };
 		FFF2086428CE55550017BF1F /* CarlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2086328CE55550017BF1F /* CarlistViewModel.swift */; };
@@ -28,6 +32,10 @@
 		FF58749628CACD6F00DD4FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF58749928CACD6F00DD4FF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF5874A628CAD87700DD4FF4 /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
+		FF6F36A928D35D0A003CB236 /* DropdownOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownOption.swift; sourceTree = "<group>"; };
+		FF6F36AB28D35D2B003CB236 /* DropdownSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownSelector.swift; sourceTree = "<group>"; };
+		FF6F36AD28D35D6C003CB236 /* Dropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropdown.swift; sourceTree = "<group>"; };
+		FF6F36AF28D35D94003CB236 /* DropdownRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownRow.swift; sourceTree = "<group>"; };
 		FFF2085E28CE51000017BF1F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		FFF2086028CE52E00017BF1F /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		FFF2086328CE55550017BF1F /* CarlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlistViewModel.swift; sourceTree = "<group>"; };
@@ -104,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				FFF2085E28CE51000017BF1F /* Car.swift */,
+				FF6F36A928D35D0A003CB236 /* DropdownOption.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +133,9 @@
 				FFF2086528CE5EB80017BF1F /* CarCardView.swift */,
 				FFF2086728CEC0BC0017BF1F /* ExternalWeblinkView.swift */,
 				FF398B8D28D205E2005D4D1C /* FilterView.swift */,
+				FF6F36AB28D35D2B003CB236 /* DropdownSelector.swift */,
+				FF6F36AD28D35D6C003CB236 /* Dropdown.swift */,
+				FF6F36AF28D35D94003CB236 /* DropdownRow.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -219,10 +231,14 @@
 				FF58749528CACD6B00DD4FF4 /* ListingView.swift in Sources */,
 				FFF2086128CE52E00017BF1F /* Bundle.swift in Sources */,
 				FF58749328CACD6B00DD4FF4 /* CarListingApp.swift in Sources */,
+				FF6F36AE28D35D6C003CB236 /* Dropdown.swift in Sources */,
+				FF6F36B028D35D94003CB236 /* DropdownRow.swift in Sources */,
 				FF398B8E28D205E3005D4D1C /* FilterView.swift in Sources */,
 				FFF2085F28CE51000017BF1F /* Car.swift in Sources */,
 				FFF2086628CE5EB90017BF1F /* CarCardView.swift in Sources */,
+				FF6F36AA28D35D0B003CB236 /* DropdownOption.swift in Sources */,
 				FFF2086828CEC0BC0017BF1F /* ExternalWeblinkView.swift in Sources */,
+				FF6F36AC28D35D2B003CB236 /* DropdownSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
