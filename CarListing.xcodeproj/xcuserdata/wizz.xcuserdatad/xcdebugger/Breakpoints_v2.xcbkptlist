@@ -14,8 +14,8 @@
             filePath = "CarListing/Screens/ViewModels/CarlistViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "initailCarList"
             landmarkType = "24">
          </BreakpointContent>

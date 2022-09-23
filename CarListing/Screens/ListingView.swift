@@ -33,7 +33,7 @@ struct ListingView: View {
             .navigationTitle("SwiftUI")
             .navigationBarTitleDisplayMode(.inline)
             .fullScreenCover(isPresented: $isFilterViewShowing) {
-                FilterView(modelOptions: viewModel.modelListOption, makeOptions: viewModel.makeListOption)
+                FilterView(modelOptions: viewModel.modelListOption, makeOptions: viewModel.makeListOption, minPrice: $viewModel.minPrice, maxPrice: $viewModel.maxPrice, selectedMake: $viewModel.selectedMake, selectedModel: $viewModel.selectedModel)
                     .cornerRadius(20)
                     .padding()
                     .frame(maxWidth: .infinity, maxHeight: .infinity)

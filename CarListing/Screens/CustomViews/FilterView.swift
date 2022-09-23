@@ -11,20 +11,25 @@ import SwiftUI
 struct FilterView: View {
     @State private var selectedStrength = "Mild"
     let strengths = ["Mild", "Medium", "Mature"]
-    @Environment(\.dismiss) var dismiss
+    @Environment(\.dismiss) private var dismiss
     
-    @State private var min: Double = 0
-    @State private var max: Double = 0
     static var uniqueKey: String {
         UUID().uuidString
     }
     let modelOptions: [DropdownOption]
     let makeOptions: [DropdownOption]
     
-    @State var tempMake: DropdownOption?
-    @State var tempModel: DropdownOption?
-    @State var selectedMake: DropdownOption?
-    @State var selectedModel: DropdownOption?
+    @State private var tempMin: Double = 0
+    @State private var tempMax: Double = 0
+    @Binding var minPrice: Double
+    @Binding var maxPrice: Double
+    
+    
+    
+    @State private var tempMake: DropdownOption?
+    @State private var tempModel: DropdownOption?
+    @Binding var selectedMake: String
+    @Binding var selectedModel: String
     
     
     var body: some View {
@@ -33,8 +38,10 @@ struct FilterView: View {
             HStack{
                 Spacer()
                 Button{
-                    selectedMake = nil
-                    selectedModel = nil
+                    selectedMake = ""
+                    selectedModel = ""
+                    minPrice = 0
+                    maxPrice = 0
                     dismiss()
                 } label: {
                     Image(systemName: "x.circle")
@@ -66,18 +73,21 @@ struct FilterView: View {
             
             VStack(alignment:.leading) {
                 Group{
-                    Slider(value: $min, in: 0...10000000)
-                    Text("Min price : \(min, specifier: "%.0f")")
+                    Slider(value: $tempMin, in: 0...10000000)
+                    Text("Min price : \(tempMin, specifier: "%.0f")")
                 }
                 Group{
-                    Slider(value: $max, in: 0...10000000)
-                    Text("Max Price : \(max, specifier: "%.0f")")
+                    Slider(value: $tempMax, in: 0...10000000)
+                    Text("Max Price : \(tempMax, specifier: "%.0f")")
                 }
             }.zIndex(80)
             
             Button{
-                selectedMake = tempMake
-                selectedModel = tempModel
+                selectedMake = tempMake?.value ?? ""
+                selectedModel = tempModel?.value ?? ""
+                maxPrice = tempMax
+                minPrice = tempMin
+                dismiss()
             } label: {
                 HStack{
                     Image(systemName: "magnifyingglass")
