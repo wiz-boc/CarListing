@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Car: Codable, Identifiable {
+struct Car: Codable, Identifiable, Equatable {
     let id: String = UUID().uuidString
     let consList : [String]
     let customerPrice:Double

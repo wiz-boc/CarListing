@@ -73,11 +73,11 @@ struct FilterView: View {
             
             VStack(alignment:.leading) {
                 Group{
-                    Slider(value: $tempMin, in: 0...10000000)
+                    Slider(value: $tempMin, in: 0...500000)
                     Text("Min price : \(tempMin, specifier: "%.0f")")
                 }
                 Group{
-                    Slider(value: $tempMax, in: 0...10000000)
+                    Slider(value: $tempMax, in: 0...500000)
                     Text("Max Price : \(tempMax, specifier: "%.0f")")
                 }
             }.zIndex(80)

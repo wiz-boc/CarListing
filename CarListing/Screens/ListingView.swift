@@ -10,12 +10,14 @@ import SwiftUI
 struct ListingView: View {
     @EnvironmentObject var viewModel: CarlistViewModel
     @State var isFilterViewShowing = false
+    
+    
     var body: some View {
         NavigationView {
             VStack{
                 ScrollView{
                     ForEach(viewModel.carList){ car in
-                        CarCardView(car: car)
+                        CarCardView(car: car,selectedCar:$viewModel.selectedCar)
                     }
                 }
             }.toolbar {

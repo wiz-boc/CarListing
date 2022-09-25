@@ -7,9 +7,21 @@
         "model":"Range Rover",
         "prosList":["You can go everywhere","Good sound system"],
         "rating":3,
-        "videoURL":"",
+        "videoURL":"7Uby1gKwaM0",
         "imageName":"Rover",
-        "website":""
+        "website":"https://www.landrover.com/vehicles/new-range-rover/index.html"
+    },
+    {
+        "consList":["Cabin gets a smidge noisy","CVT is thrashy at times"],
+        "customerPrice":33000,
+        "make":"Hunda",
+        "marketPrice":25000.0,
+        "model":"Civic",
+        "prosList":["Drives way, way better than it has to","Upscale, well-appointed interior","More mature styling than before"],
+        "rating":3,
+        "videoURL":"4-FM1BHqgH8",
+        "imageName":"Hunda",
+        "website":"https://automobiles.honda.com/civic-sedan"
     },
     {
         "consList":["Sometime explode"],
@@ -19,9 +31,22 @@
         "model":"Roadster",
         "prosList":["This car is so fast, Jame Bond would love to steal that car"],
         "rating":4,
-        "videoURL":"",
+        "videoURL":"_kEZKCtQ1hk",
         "imageName":"Alpine",
-        "website":""
+        "website":"https://www.alpine-cars.co.uk/"
+        
+    },
+    {
+        "consList":["Can't turn off stability control","No power liftgate for huge rear hatch","Eight-speed automatic transmission lagged at times"],
+        "customerPrice":40000,
+        "make":"Kia",
+        "marketPrice":45000,
+        "model":"Stinger",
+        "prosList":["New base engine adds 45 horsepower","Nice proportions, improved interior"],
+        "rating":3,
+        "videoURL":"Mz_v4dCA3OQ",
+        "imageName":"Kia",
+        "website":"https://www.kia.com/us/en/stinger"
         
     },
     {
@@ -32,9 +57,22 @@
         "model":"3300i",
         "prosList":["Your average business man car can bring the family home safely","The city must have"],
         "rating":5,
-        "videoURL":"",
+        "videoURL":"XaOrAnxEiI8",
         "imageName":"BMW",
-        "website":""
+        "website":"https://www.bmwusa.com/vehicles/3-series/sedan/core-models.html#!/330i"
+    },
+    {
+        
+        "consList":["Disappointing downshifts"],
+        "customerPrice":50000.0,
+        "make":"Audi",
+        "marketPrice":60000.0,
+        "model":"A3",
+        "prosList":["Impressive acceleration and a fun, peppy engine"],
+        "rating":4,
+        "videoURL":"XzBf2GO0RPU",
+        "imageName":"Audi",
+        "website":"https://www.mercedes-benzcaribbean.com/en/vehicles/class-GLE/GLE-Coup%C3%A9"
     },
     {
         "consList":["You may lose a wheel","Expensive maintenance"],
@@ -44,8 +82,8 @@
         "model":"GLE coupe",
         "prosList":[],
         "rating":2,
-        "videoURL":"",
+        "videoURL":"wYwoGaMgytM",
         "imageName":"Benz",
-        "website":""
+        "website":"https://www.audiusa.com/us/web/en/models/a3/a3/2023/overview.html"
     }
 ]

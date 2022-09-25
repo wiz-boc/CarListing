@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF14A9F228E0A26D002B5FCE /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = FF14A9F128E0A26D002B5FCE /* YouTubePlayerKit */; };
 		FF398B8E28D205E3005D4D1C /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF398B8D28D205E2005D4D1C /* FilterView.swift */; };
 		FF58749328CACD6B00DD4FF4 /* CarListingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58749228CACD6B00DD4FF4 /* CarListingApp.swift */; };
 		FF58749528CACD6B00DD4FF4 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58749428CACD6B00DD4FF4 /* ListingView.swift */; };
@@ -48,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF14A9F228E0A26D002B5FCE /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +174,9 @@
 			dependencies = (
 			);
 			name = CarListing;
+			packageProductDependencies = (
+				FF14A9F128E0A26D002B5FCE /* YouTubePlayerKit */,
+			);
 			productName = CarListing;
 			productReference = FF58748F28CACD6B00DD4FF4 /* CarListing.app */;
 			productType = "com.apple.product-type.application";
@@ -200,6 +205,9 @@
 				Base,
 			);
 			mainGroup = FF58748628CACD6B00DD4FF4;
+			packageReferences = (
+				FF14A9F028E0A26D002B5FCE /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			productRefGroup = FF58749028CACD6B00DD4FF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -439,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF14A9F028E0A26D002B5FCE /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF14A9F128E0A26D002B5FCE /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF14A9F028E0A26D002B5FCE /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF58748728CACD6B00DD4FF4 /* Project object */;
 }
